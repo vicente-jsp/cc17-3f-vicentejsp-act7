@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="Explore Baguio City"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/coffeeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/buttonbg"
+            android:text="Coffee Shops" />
+
+        <Button
+            android:id="@+id/restaurantButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/buttonbg"
+            android:text="Restaurants"
+            android:fontFamily="@font/quicksand_medium"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/kidFriendlyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/buttonbg"
+            android:text="Kid-Friendly Places"
+            android:fontFamily="@font/quicksand_medium"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/parksButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/buttonbg"
+            android:text="Parks"
+            android:fontFamily="@font/quicksand_medium"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/shoppingButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonbg"
+            android:text="Shopping Centers"
+            android:fontFamily="@font/quicksand_medium"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</layout>
